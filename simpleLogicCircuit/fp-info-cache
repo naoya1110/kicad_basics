@@ -1,4 +1,4 @@
-20903579641565024
+20908656905097643
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87535,9 +87535,30 @@ USB-C-A295-CTRPB-1
 4
 3
 simpleLogicCircuit
+eulers_eq
+
+
+0
+0
+0
+simpleLogicCircuit
 ruler_9cm
 
 
 0
 96
 96
+simpleLogicCircuit
+ruler_10cm
+
+
+0
+99
+99
+simpleLogicCircuit
+xor_nand
+
+
+0
+0
+0

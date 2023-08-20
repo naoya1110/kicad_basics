@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\iwamoto\\Desktop\\kicad_basics\\simpleLED\\simpleLED.kicad_sch")
-    (date "2023/08/11 21:59:30")
+    (date "2023/08/17 10:14:29")
     (tool "Eeschema (6.0.10)")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -22,7 +22,7 @@
   (components
     (comp (ref "D1")
       (value "LED")
-      (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+      (footprint "LED_THT:LED_D3.0mm")
       (libsource (lib "Device") (part "LED") (description "Light emitting diode"))
       (property (name "Sheetname") (value ""))
       (property (name "Sheetfile") (value "simpleLED.kicad_sch"))
@@ -39,7 +39,7 @@
       (tstamps "4995e589-f838-4e94-a6a6-aaf9f398e415"))
     (comp (ref "R1")
       (value "R")
-      (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
       (libsource (lib "Device") (part "R") (description "Resistor"))
       (property (name "Sheetname") (value ""))
       (property (name "Sheetfile") (value "simpleLED.kicad_sch"))
@@ -47,7 +47,7 @@
       (tstamps "6e8c19d5-ccc9-4098-9853-e769a7b41288"))
     (comp (ref "SW1")
       (value "SW_Push")
-      (footprint "Button_Switch_SMD:SW_SPST_PTS645")
+      (footprint "Button_Switch_THT:SW_PUSH_6mm")
       (libsource (lib "Switch") (part "SW_Push") (description "Push button switch, generic, two pins"))
       (property (name "Sheetname") (value ""))
       (property (name "Sheetfile") (value "simpleLED.kicad_sch"))
