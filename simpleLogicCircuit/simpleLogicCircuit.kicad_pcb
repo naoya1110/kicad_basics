@@ -723,7 +723,7 @@
     (property "Sheetname" "")
     (path "/0860b59b-a559-4ab9-b8d4-51a9173c0624")
     (attr through_hole)
-    (fp_text reference "D3" (at 1.27 -2.96 90) (layer "F.SilkS")
+    (fp_text reference "D3" (at 1.865 -3.195 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf4fa71e-971b-4e5f-aa7b-2351bf6a9775)
     )
@@ -2108,6 +2108,25 @@
     )
   )
 
+  (footprint "simpleLogicCircuit:keyringhole" (layer "F.Cu")
+    (tedit 0) (tstamp d43eccd2-fe0e-49fe-a9c0-dd2b8c4da2f9)
+    (at 128 52)
+    (attr through_hole)
+    (fp_text reference "REF**" (at 0 5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp c33cc4ab-3c26-4653-b811-d57476a6001e)
+    )
+    (fp_text value "keyringhole" (at 0 6 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f619919b-cda0-4d74-9d03-e9ce74dde658)
+    )
+    (fp_text user "${REFERENCE}" (at 0 9 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 314b128d-1095-40cb-99af-339eb9c35015)
+    )
+    (pad "2" thru_hole oval (at 0 0) (size 4 9) (drill oval 3 8) (layers *.Cu *.Mask) (tstamp 7c745c76-6e3a-4f46-ac47-ba1c135ef758))
+  )
+
   (footprint "Button_Switch_THT:SW_PUSH_6mm" (layer "F.Cu")
     (tedit 5A02FE31) (tstamp e927ca4c-2af0-4b80-8acf-db5dd67a1f2e)
     (at 88.805 50.16)
@@ -2166,7 +2185,12 @@
     )
   )
 
-  (gr_rect (start 32 37) (end 132 67) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 41b5eef2-d0ed-49e0-a318-48d54ce5444d))
+  (gr_arc (start 132 66) (mid 131.707107 66.707107) (end 131 67) (layer "Edge.Cuts") (width 0.1) (tstamp 1f863292-74e1-48c4-b6e6-e2b311145cc8))
+  (gr_line (start 32 66) (end 32 37) (layer "Edge.Cuts") (width 0.1) (tstamp 295c595a-d9d7-4e06-a4ad-67b3a1fe39ce))
+  (gr_line (start 32 37) (end 132 37) (layer "Edge.Cuts") (width 0.1) (tstamp 41052786-18b9-43ed-80f9-d1378ff31a59))
+  (gr_arc (start 33 67) (mid 32.292893 66.707107) (end 32 66) (layer "Edge.Cuts") (width 0.1) (tstamp 97884df2-82d0-4fcc-9a8b-6153a03e4808))
+  (gr_line (start 132 37) (end 132 66) (layer "Edge.Cuts") (width 0.1) (tstamp d1dea02b-70fc-4fff-a603-b2705c107c16))
+  (gr_line (start 131 67) (end 33 67) (layer "Edge.Cuts") (width 0.1) (tstamp dc9f8f6f-323e-47c4-afed-5ca108ff6099))
   (gr_text "National Institute of Technology, Kagawa College\nDepartment of Electronic Systems Engineering" (at 38 64.5) (layer "F.Cu") (tstamp 717c6fb9-2bb7-4425-a1d4-ac7ced096c23)
     (effects (font (size 1.2 1.2) (thickness 0.2)) (justify left))
   )

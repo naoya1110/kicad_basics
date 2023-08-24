@@ -1,4 +1,4 @@
-20908656905097643
+20910349785537891
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87541,6 +87541,13 @@ eulers_eq
 0
 0
 0
+simpleLogicCircuit
+keyringhole
+
+
+0
+1
+1
 simpleLogicCircuit
 ruler_9cm
 
