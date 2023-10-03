@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "simpleLogicCircuit")(type "KiCad")(uri "${KIPRJMOD}/simpleLogicCircuit.pretty")(options "")(descr ""))
+  (lib (name "keyringhole")(type "KiCad")(uri "${KIPRJMOD}/simpleLogicCircuit-backups/keyringhole.pretty")(options "")(descr ""))
+)
